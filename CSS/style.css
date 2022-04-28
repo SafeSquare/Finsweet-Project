@@ -43,7 +43,7 @@ ul {
   display: flex;
 }
 
-ul li {
+ul, li {
   margin-right: 50px;
 }
 
@@ -375,7 +375,7 @@ body {
   padding-bottom: 30px;
 }
 
-#brands {
+.brands {
   padding-bottom: 40px;
 }
 
