@@ -14,6 +14,12 @@
   display: flex;
 }
 
+.flexx {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 /* Section 1 */
 h3, h4 {
   font-weight: lighter;
@@ -381,6 +387,31 @@ body {
 
 .brand-div {
   width: 75%;
+}
+
+.page-first {
+  background-color: #1E1B1B;
+}
+
+.parts-one, .parts-two {
+  width: 40%;
+  margin-top: 10%;
+}
+
+.parts-one h1 {
+font-weight: 500;
+font-size: 45px;
+color: #ffffff;
+}
+
+.parts-two p {
+  margin-bottom: 3%;
+  color: #ffffff;
+}
+
+.parts-two h2 {
+  margin-bottom: 5%;
+  color: #ffffff;
 }
 
 
