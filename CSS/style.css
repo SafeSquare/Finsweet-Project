@@ -414,6 +414,53 @@ color: #ffffff;
   color: #ffffff;
 }
 
+@media (max-width: 426px) {
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-one .part-one img {
+  width: 60%;
+}
+
+.header-one .part-two {
+  display: none;
+  flex-direction: column;
+}
+
+.header-one .text-part h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-part a {
+  background: #FF6433;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+
+
+.acess-point {
+  justify-content: left;
+  margin-top: 8%;
+
+}
+
+.acess-point img {
+  height: 5%;
+  color: #939191;
+}
+
+.acess-point p {
+  color: #939191;
+}
+
+}
+
+
 
 
 
