@@ -508,7 +508,8 @@ body {
     width: 100%;
   }
 
-  .row-two h4 {
+  .row-two .flexbox-text h4 {
+    display: inline-block;
     padding: 10px 10px;
     font-size: 16px;
     margin: 10px o;
