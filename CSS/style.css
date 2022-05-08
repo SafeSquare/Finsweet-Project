@@ -391,7 +391,11 @@ body {
 }
 
 /* MOBILE VIEW */
-@media (max-width:425px) {
+@media (max-width:426px) {
+  .main-section {
+    margin-left: 12px;
+  }
+
   .container, .container-two {
     width: 100%;
     margin: 0 auto;
@@ -434,6 +438,8 @@ body {
       padding: 20px;
       color: white;
   }
+
+ 
   
     .header-one .text-part {
       order: 2;
@@ -473,7 +479,7 @@ body {
   }
 
   .row-one-text h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
   
   #our-forte {
