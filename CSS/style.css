@@ -435,8 +435,6 @@ body {
       padding: 20px;
       color: white;
   }
-
- 
   
     .header-one .text-part {
       order: 2;
@@ -542,8 +540,10 @@ body {
 }
 
 .brands .brand-div {
-flex-direction: column;
-align-items: center;
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 }
@@ -557,6 +557,24 @@ align-items: center;
 
   .header-one {
     flex-direction: column;
+  }
+
+
+  .header-one .image-part {
+    order: 1;
+    width: 80vw;
+    align-items: flex-start;
+  }
+
+  .header-one .image-part img {
+    width: 60vw;
+  }
+
+  .header-one .text-part {
+    order: 2;
+    width: 80vw;
+    margin: auto;
+    align-items: flex-start;
   }
 
   .form-container button a {
@@ -579,6 +597,7 @@ align-items: center;
   .brands .brand-div {
     flex-direction: column;
     align-items: center;
+    margin: auto;
   }
 }
     
