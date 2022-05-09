@@ -489,11 +489,11 @@ body {
     font-size: 30px;
   }
   
-  .container-two .text-part {
+  .container .text-part {
     order: 1;
   }
   
-  .container-two .image-part {
+  .container .image-part {
     order: 2;
   }
   
@@ -504,6 +504,16 @@ body {
     border: none;
     font-size: 16px;
   }
+
+  .row-one .purple {
+    flex-direction: column;
+  }
+
+  .row-one-text {
+    margin-bottom: 30px;
+  }
+
+  
 
   .flex-properties {
     width: 100%;
@@ -551,6 +561,11 @@ body {
 /* TABLET VIEW */
 
 @media (max-width: 769px) {
+
+  body {
+    width: 90vw;
+    margin: auto;
+  }
   .container {
     width: 90%;
   }
