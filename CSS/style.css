@@ -513,10 +513,10 @@ body {
     margin-bottom: 30px;
   }
 
-  
-
   .flex-properties {
     width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .flex-box {
